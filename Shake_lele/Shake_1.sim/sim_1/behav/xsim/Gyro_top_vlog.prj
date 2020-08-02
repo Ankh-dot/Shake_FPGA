@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Shake_1.srcs/sources_1/new/Clk_UART.v" \
+"../../../../Shake_1.srcs/sources_1/new/Clk_division0.v" \
+"../../../../Shake_1.srcs/sources_1/new/Clk_division1.v" \
+"../../../../Shake_1.srcs/sources_1/new/Gyro_driver.v" \
+"../../../../Shake_1.srcs/sources_1/imports/new/IIC.v" \
+"../../../../Shake_1.srcs/sources_1/new/UART_Driver.v" \
+"../../../../Shake_1.srcs/sources_1/new/UART_send.v" \
+"../../../../Shake_1.srcs/sources_1/new/clk_10.v" \
+"../../../../Shake_1.srcs/sources_1/new/Gyro_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
